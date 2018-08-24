@@ -14,7 +14,7 @@ app.set('port', process.env.PORT || 8080);
     res.send('About Meadowlark Travel');
     });
 
-    // custom 404 page
+    // custom 404 page mine
     app.use(function(req, res, next){
     res.type('text/plain');
     res.status(404);
