@@ -11,5 +11,9 @@
     "url": "my-node-app"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.0.0",
+    "express3-handlebars": "^0.5.2"
+  }
 }
